@@ -25,3 +25,6 @@
 (setq linum-format "%4d \u2502 ")
 
 '(ange-ftp-try-passive-mode 't)
+
+;;; Add bottom scroll margin
+(edt-set-scroll-margins "0" "25%")
