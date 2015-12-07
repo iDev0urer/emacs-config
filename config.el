@@ -35,3 +35,13 @@
   (yank)
   )
 (global-set-key (kbd "C-d") 'duplicate-line)
+
+'(ange-ftp-try-passive-mode 't)
+
+;;; Add bottom scroll margin
+(edt-set-scroll-margins "0" "25%")
+
+
+(require 'sws-mode)
+(require 'jade-mode)
+(add-to-list 'auto-mode-alist '("\\.styl\\'" . sws-mode))

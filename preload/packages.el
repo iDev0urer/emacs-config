@@ -10,7 +10,7 @@
 	     '("melpa" . "https://melpa.org/packages/"))
 
 (setq package-list
-      '(color-theme company company-anaconda helm-emmet emmet-mode magit markdown-mode neotree ruby-tools slim-mode twilight-theme web-mode))
+      '(color-theme company company-anaconda helm-emmet emmet-mode magit markdown-mode neotree ruby-tools slim-mode twilight-theme web-mode sws-mode jade-mode rust-mode))
 
 (package-initialize)
 
